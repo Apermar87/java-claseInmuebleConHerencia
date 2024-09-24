@@ -13,7 +13,7 @@ public class CasasRurales extends Casas {
 
     public void imprimir(){
         super.imprimir();
-        System.out.println("Distancia la cabecera municipal: ");
+        System.out.println("Distancia la cabecera municipal: " + distancia);
         System.out.println("Altitud sobre el nivel del mar: " + altitud);
         System.out.println("");
     }
